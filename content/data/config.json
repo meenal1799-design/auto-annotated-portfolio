@@ -20,24 +20,24 @@
             },
             {
                 "type": "Link",
-                "label": "Writing",
-                "url": "/blog"
+                "label": "Notes",
+                "url": "https://meenalsingh.substack.com/"
             }
         ],
         "socialLinks": [
-            {
-                "type": "Social",
-                "altText": "GitHub",
-                "label": "GitHub",
-                "url": "https://github.com/meenal1799-design",
-                "icon": "github"
-            },
             {
                 "type": "Social",
                 "altText": "LinkedIn",
                 "label": "LinkedIn",
                 "url": "https://www.linkedin.com/in/singh-meenal",
                 "icon": "linkedin"
+            },
+            {
+                "type": "Social",
+                "altText": "Substack",
+                "label": "Substack",
+                "url": "https://meenalsingh.substack.com/",
+                "icon": "arrow-up-right"
             }
         ],
         "styles": {
@@ -63,21 +63,21 @@
             },
             {
                 "type": "Link",
-                "label": "Writing",
-                "url": "/blog",
+                "label": "Notes",
+                "url": "https://meenalsingh.substack.com/",
                 "altText": ""
             },
             {
                 "type": "Link",
-                "label": "GitHub",
-                "url": "https://github.com/meenal1799-design",
-                "altText": "GitHub profile"
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/singh-meenal",
+                "altText": "LinkedIn profile"
             }
         ],
         "contacts": {
             "type": "ContactBlock",
             "title": "Contact details",
-            "email": "hello@yourdomain.com",
+            "email": "meenal.1799@gmail.com",
             "emailAltText": "Email me"
         },
         "copyrightText": "Copyright 2026 Meenal Singh",

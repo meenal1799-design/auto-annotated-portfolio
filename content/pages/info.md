@@ -15,17 +15,17 @@ sections:
     backgroundSize: full
     text: >+
       # About
-      I'm a developer and digital artist focused on interactive web
-      experiences. I combine UX, visual design, and frontend engineering to
-      build fast, accessible, and delightful products.
+      I'm a Senior Product Manager specializing in AI-powered digital products
+      and enterprise solutions. I lead cross-functional teams, build product
+      roadmaps, and deliver measurable growth across B2B and B2C platforms.
 
-      When I'm not building, I explore generative art, motion, and new interface
-      ideas.
+      Based in Dubai, I focus on AI automation, SaaS platform strategy, and
+      enterprise partnerships that scale adoption and revenue.
 
     media:
       type: ImageBlock
-      url: /images/about.jpg
-      altText: Hero image
+      url: /images/about-photo.jpg
+      altText: Meenal Singh speaking at an event
     styles:
       self:
         height: auto
@@ -55,28 +55,28 @@ sections:
         borderStyle: solid
   - type: MediaGallerySection
     colors: colors-f
-    subtitle: 'Toolbox:'
+    subtitle: 'Focus areas:'
     images:
       - type: ImageBlock
         url: /images/logo1.svg
-        altText: Logo one
-        caption: Design
+        altText: AI product strategy
+        caption: AI strategy
       - type: ImageBlock
         url: /images/logo2.svg
-        altText: Logo two
-        caption: Frontend
+        altText: Enterprise SaaS
+        caption: Enterprise SaaS
       - type: ImageBlock
         url: /images/logo3.svg
-        altText: Logo three
-        caption: Motion
+        altText: Growth analytics
+        caption: Growth analytics
       - type: ImageBlock
         url: /images/logo4.svg
-        altText: Logo four
-        caption: Prototyping
+        altText: Automation
+        caption: Automation
       - type: ImageBlock
         url: /images/logo5.svg
-        altText: Logo five
-        caption: Systems
+        altText: Partnerships
+        caption: Partnerships
     spacing: 3
     columns: 5
     aspectRatio: auto
@@ -110,16 +110,16 @@ sections:
       - type: FeaturedItem
         actions:
           - type: Link
-            label: GitHub
-            url: 'https://github.com/meenal1799-design'
+            label: LinkedIn
+            url: 'https://www.linkedin.com/in/singh-meenal'
         styles:
           self:
             textAlign: left
       - type: FeaturedItem
         actions:
           - type: Link
-            label: LinkedIn
-            url: 'https://www.linkedin.com/in/singh-meenal'
+            label: Substack
+            url: 'https://meenalsingh.substack.com/'
         styles:
           self:
             textAlign: left
@@ -159,21 +159,53 @@ sections:
     subtitle: 'Skills:'
     items:
       - type: Label
-        label: TypeScript
+        label: Product Strategy
       - type: Label
-        label: React
+        label: Roadmapping
       - type: Label
-        label: Next.js
+        label: AI/ML
       - type: Label
-        label: Design Systems
+        label: GenAI
       - type: Label
-        label: Accessibility
+        label: SaaS
       - type: Label
-        label: CSS
+        label: Enterprise Partnerships
       - type: Label
-        label: Motion
+        label: Analytics
       - type: Label
-        label: Figma
+        label: Stakeholder Management
+  - type: FeaturedItemsSection
+    subtitle: 'Downloads:'
+    colors: colors-f
+    items:
+      - type: FeaturedItem
+        actions:
+          - type: Link
+            label: Resume PDF
+            url: '/docs/Meenal_Singh_CV.pdf'
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        actions:
+          - type: Link
+            label: LinkedIn profile PDF
+            url: '/docs/Meenal_Singh_LinkedIn_Profile.pdf'
+        styles:
+          self:
+            textAlign: left
+    columns: 2
+    spacingX: 120
+    spacingY: 16
+    styles:
+      self:
+        height: auto
+        width: wide
+        padding:
+          - pt-8
+          - pb-8
+          - pl-4
+          - pr-4
   - type: DividerSection
     styles:
       self:
@@ -206,22 +238,23 @@ sections:
     colors: colors-f
     items:
       - type: FeaturedItem
-        subtitle: 'Capabilities:'
+        subtitle: 'Experience:'
         text: |-
-          * Product & UX design
-          * Frontend engineering (React/Next.js)
-          * Design systems and component libraries
-          * Prototyping and motion
+          **Trianz** — Product Manager (Mar 2024 - Present)
+
+          **ACT Fibernet** — Product Manager (Feb 2022 - Mar 2024)
+
+          **Ford Motor Company** — Software Developer (Jul 2018 - Jun 2019)
         styles:
           self:
             textAlign: left
       - type: FeaturedItem
-        subtitle: 'Engagements:'
+        subtitle: 'Highlights:'
         text: |-
-          * Brand and portfolio sites
-          * Product landing pages
-          * Web app UX refreshes
-          * Accessibility and performance audits
+          * Delivered 15+ AWS security connector products valued at $4.5M
+          * Contributed to 4 patents in GenAI and business intelligence
+          * Achieved 80% reduction in manual effort via AI automation
+          * Drove 7% conversion lift and 10% customer acquisition growth
         styles:
           self:
             textAlign: left

@@ -27,8 +27,8 @@ projectFeed:
         - pb-12
 topSections:
   - type: HeroSection
-    title: Projects
-    subtitle: ''
+    title: Selected work
+    subtitle: Enterprise platforms, growth programs, and AI-led initiatives.
     actions: []
     colors: colors-f
     backgroundSize: full
@@ -47,24 +47,17 @@ topSections:
 bottomSections:
   - type: ContactSection
     backgroundSize: full
-    title: "Let’s talk... \U0001F4AC"
+    title: Have a product challenge to solve?
     colors: colors-f
     form:
       type: FormBlock
       elementId: sign-up-form
       fields:
-        - name: firstName
-          label: First Name
+        - name: name
+          label: Name
           hideLabel: true
-          placeholder: First Name
+          placeholder: Name
           isRequired: true
-          width: 1/2
-          type: TextFormControl
-        - name: lastName
-          label: Last Name
-          hideLabel: true
-          placeholder: Last Name
-          isRequired: false
           width: 1/2
           type: TextFormControl
         - name: email
@@ -72,21 +65,16 @@ bottomSections:
           hideLabel: true
           placeholder: Email
           isRequired: true
-          width: full
+          width: 1/2
           type: EmailFormControl
-        - name: message
-          label: Message
+        - name: project
+          label: Project
           hideLabel: true
-          placeholder: Tell me about your project
+          placeholder: What are you working on?
           isRequired: true
           width: full
           type: TextareaFormControl
-        - name: updatesConsent
-          label: Sign me up to recieve my words
-          isRequired: false
-          width: full
-          type: CheckboxFormControl
-      submitLabel: "Submit \U0001F680"
+      submitLabel: Send message
       styles:
         self:
           textAlign: center

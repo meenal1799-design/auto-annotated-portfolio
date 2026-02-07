@@ -13,10 +13,14 @@ sections:
   - elementId: ''
     colors: colors-f
     backgroundSize: full
-    title: 'Meenal Singh - Developer & Digital Artist'
+    title: 'Meenal Singh - Senior Product Manager (AI & Digital Products)'
     subtitle: >-
-      I build thoughtful, high-performing web experiences that pair clean
-      engineering with visual storytelling.
+      I lead AI-powered product strategy and enterprise partnerships, scaling
+      SaaS products and automation that drive measurable growth. Dubai, UAE.
+    media:
+      type: ImageBlock
+      url: /images/profile-photo.jpg
+      altText: Meenal Singh
     styles:
       self:
         height: auto
@@ -36,13 +40,13 @@ sections:
     type: HeroSection
     actions:
       - type: Button
-        label: View projects
+        label: View work
         url: /projects
         showIcon: true
         icon: arrow-right
       - type: Button
-        label: Get in touch
-        url: '#contact'
+        label: Download resume
+        url: /docs/Meenal_Singh_CV.pdf
         style: secondary
   - colors: colors-f
     type: FeaturedProjectsSection
@@ -71,18 +75,18 @@ sections:
           - pr-4
         textAlign: left
     title: Selected work
-    subtitle: A small set of projects focused on interaction, clarity, and craft.
+    subtitle: Product launches, enterprise connectors, and growth initiatives.
   - type: FeaturedPostsSection
     elementId: ''
     colors: colors-f
     variant: variant-d
-    title: Writing
-    subtitle: Notes on design systems, frontend craft, and experiments.
+    title: Insights
+    subtitle: Notes on AI product strategy, growth, and enterprise delivery.
     showFeaturedImage: false
     actions:
       - type: Link
-        label: See all posts
-        url: /blog
+        label: Read on Substack
+        url: https://meenalsingh.substack.com/
     posts:
       - content/pages/blog/post-six.md
       - content/pages/blog/post-four.md
@@ -104,9 +108,9 @@ sections:
     elementId: contact
     colors: colors-f
     backgroundSize: full
-    title: Have a project in mind?
+    title: Have a product challenge to solve?
     text: >-
-      Tell me a little about your timeline and goals. I'll reply with next steps
+      Share your goals, timelines, and constraints. I'll reply with next steps
       and availability.
     form:
       type: FormBlock
