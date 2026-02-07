@@ -4,7 +4,8 @@ const isProd = process.env.NODE_ENV === 'production';
 
 const nextConfig = {
     env: {
-        stackbitPreview: process.env.STACKBIT_PREVIEW
+        stackbitPreview: process.env.STACKBIT_PREVIEW,
+        NEXT_PUBLIC_BASE_PATH: isProd ? `/${repo}` : ''
     },
     output: 'export',
     images: {

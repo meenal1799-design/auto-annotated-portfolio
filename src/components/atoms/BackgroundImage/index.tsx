@@ -1,3 +1,4 @@
+import { withBasePath } from '@/utils/asset-url';
 import { mapStylesToClassNames as mapStyles } from '@/utils/map-styles-to-class-names';
 import classNames from 'classnames';
 
@@ -6,6 +7,7 @@ export default function BackgroundImage(props) {
     if (!url) {
         return null;
     }
+    const resolvedUrl = withBasePath(url);
     return (
         <div
             className={classNames(
@@ -19,7 +21,7 @@ export default function BackgroundImage(props) {
                 className
             )}
             style={{
-                backgroundImage: `url('${url}')`,
+                backgroundImage: `url('${resolvedUrl}')`,
                 opacity: (opacity ?? 100) * 0.01
             }}
         />

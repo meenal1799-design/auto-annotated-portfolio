@@ -3,6 +3,7 @@ import Head from 'next/head';
 import { DynamicComponent } from '@/components/components-registry';
 import { PageComponentProps } from '@/types';
 import { allContent } from '@/utils/content';
+import { withBasePath } from '@/utils/asset-url';
 import { seoGenerateMetaDescription, seoGenerateMetaTags, seoGenerateTitle } from '@/utils/seo-utils';
 import { resolveStaticProps } from '@/utils/static-props-resolvers';
 
@@ -26,7 +27,7 @@ const Page: React.FC<PageComponentProps> = (props) => {
                     return <meta key={metaTag.property} name={metaTag.property} content={metaTag.content} />;
                 })}
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
-                {site.favicon && <link rel="icon" href={site.favicon} />}
+                {site.favicon && <link rel="icon" href={withBasePath(site.favicon)} />}
             </Head>
             <DynamicComponent {...props} />
         </>

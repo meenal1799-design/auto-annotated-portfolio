@@ -1,4 +1,5 @@
 import { Annotated } from '@/components/Annotated';
+import { withBasePath } from '@/utils/asset-url';
 
 export default function ImageBlock(props) {
     const { elementId, className, url, altText = '' } = props;
@@ -6,9 +7,11 @@ export default function ImageBlock(props) {
         return null;
     }
 
+    const resolvedUrl = withBasePath(url);
+
     return (
         <Annotated content={props}>
-            <img id={elementId || null} className={className} src={url} alt={altText} />
+            <img id={elementId || null} className={className} src={resolvedUrl} alt={altText} />
         </Annotated>
     );
 }
