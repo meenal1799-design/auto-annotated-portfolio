@@ -13,10 +13,10 @@ sections:
   - elementId: ''
     colors: colors-f
     backgroundSize: full
-    title: 'Meenal Singh - Senior Product Manager (AI & Digital Products)'
+    title: 'Meenal Singh - Product Manager (AI & Digital Products)'
     subtitle: >-
       I lead AI-powered product strategy and enterprise partnerships, scaling
-      SaaS products and automation that drive measurable growth. Dubai, UAE.
+      SaaS products and automation that drive measurable growth.
     media:
       type: ImageBlock
       url: /images/profile-photo.jpg
@@ -76,24 +76,42 @@ sections:
         textAlign: left
     title: Selected work
     subtitle: Product launches, enterprise connectors, and growth initiatives.
-  - type: FeaturedPostsSection
+  - type: FeaturedItemsSection
     elementId: ''
     colors: colors-f
-    variant: variant-d
     title: Insights
-    subtitle: Notes on AI product strategy, growth, and enterprise delivery.
-    showFeaturedImage: false
-    actions:
-      - type: Link
-        label: Read on Substack
-        url: https://meenalsingh.substack.com/
-    posts:
-      - content/pages/blog/post-six.md
-      - content/pages/blog/post-four.md
-      - content/pages/blog/post-three.md
-    showDate: true
-    showExcerpt: true
-    showReadMoreLink: true
+    subtitle: Recent LinkedIn notes on AI strategy, workflows, and agents.
+    items:
+      - type: FeaturedItem
+        title: AI strategy for business adoption
+        actions:
+          - type: Link
+            label: Read on LinkedIn
+            url: https://www.linkedin.com/posts/singh-meenal_uaebusiness-dubaitech-aistrategy-share-7424349186105733121-GcN0
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        title: AI workflows and the future of work
+        actions:
+          - type: Link
+            label: Read on LinkedIn
+            url: https://www.linkedin.com/posts/singh-meenal_aiworkflows-futureofwork-uaeinnovation-share-7421424515206918145-MLCZ
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        title: NotebookLM, SaaS, and AI agents
+        actions:
+          - type: Link
+            label: Read on LinkedIn
+            url: https://www.linkedin.com/posts/singh-meenal_notebooklm-saas-aiagents-activity-7414512373220409344-xb38
+        styles:
+          self:
+            textAlign: left
+    columns: 3
+    spacingX: 24
+    spacingY: 24
     styles:
       self:
         height: auto

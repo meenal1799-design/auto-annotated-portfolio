@@ -72,6 +72,12 @@
                 "label": "LinkedIn",
                 "url": "https://www.linkedin.com/in/singh-meenal",
                 "altText": "LinkedIn profile"
+            },
+            {
+                "type": "Link",
+                "label": "Goodreads",
+                "url": "https://www.goodreads.com/user/show/36474133-meenal-singh",
+                "altText": "Goodreads year in books"
             }
         ],
         "contacts": {

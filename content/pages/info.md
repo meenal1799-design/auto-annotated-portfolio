@@ -15,12 +15,25 @@ sections:
     backgroundSize: full
     text: >+
       # About
-      I'm a Senior Product Manager specializing in AI-powered digital products
-      and enterprise solutions. I lead cross-functional teams, build product
+      I'm a Product Manager specializing in AI-powered digital products and
+      enterprise solutions. I lead cross-functional teams, shape product
       roadmaps, and deliver measurable growth across B2B and B2C platforms.
+      My work spans AI automation, SaaS platform strategy, and enterprise
+      partnerships that scale adoption and revenue.
 
-      Based in Dubai, I focus on AI automation, SaaS platform strategy, and
-      enterprise partnerships that scale adoption and revenue.
+      Beyond product, I'm a reflective, intellectually curious person who
+      explores the intersections of nature, technology, and human behavior. On
+      Substack I dive into "mind-blowing" topics like ancient engineering,
+      biodiversity, and the biological definition of sentience. These ideas
+      shape how I think about product: people aren't at the top of a chain, but
+      part of a web that rewards humility, attention, and original thinking.
+
+      I value nuance over binaries, and I try to stay grounded in the present
+      while building for the future. I'm also deliberate about how I work,
+      tracking habits, asking why we feel guilt about modern living, and
+      questioning how tools (including AI) change what it means to be alive.
+      This lens keeps me focused on building products that feel human,
+      responsible, and useful.
 
     media:
       type: ImageBlock
@@ -128,6 +141,14 @@ sections:
           - type: Link
             label: Email
             url: 'mailto:meenal.1799@gmail.com'
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        actions:
+          - type: Link
+            label: Goodreads
+            url: 'https://www.goodreads.com/user/show/36474133-meenal-singh'
         styles:
           self:
             textAlign: left
