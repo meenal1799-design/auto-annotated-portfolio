@@ -14,10 +14,13 @@ sections:
     colors: colors-f
     backgroundSize: full
     text: >+
-      # Hey I’m a developer. I’ve been born and raised in the world, and that’s
-      also where I’m based. I’m currently a free agent, ex-this, ex-that,
-      ex-super big name. When I’m not coding, writing or creating, I eat
-      cereals. I have a dog, check her out [@mygod](https://www.stackbit.com/).
+      # About
+      I'm a developer and digital artist focused on interactive web
+      experiences. I combine UX, visual design, and frontend engineering to
+      build fast, accessible, and delightful products.
+
+      When I'm not building, I explore generative art, motion, and new interface
+      ideas.
 
     media:
       type: ImageBlock
@@ -52,28 +55,28 @@ sections:
         borderStyle: solid
   - type: MediaGallerySection
     colors: colors-f
-    subtitle: 'I worked with these folks:'
+    subtitle: 'Toolbox:'
     images:
       - type: ImageBlock
         url: /images/logo1.svg
         altText: Logo one
-        caption: Logo one
+        caption: Design
       - type: ImageBlock
         url: /images/logo2.svg
         altText: Logo two
-        caption: Logo two
+        caption: Frontend
       - type: ImageBlock
         url: /images/logo3.svg
         altText: Logo three
-        caption: Logo three
+        caption: Motion
       - type: ImageBlock
         url: /images/logo4.svg
         altText: Logo four
-        caption: Logo four
+        caption: Prototyping
       - type: ImageBlock
         url: /images/logo5.svg
         altText: Logo five
-        caption: Logo five
+        caption: Systems
     spacing: 3
     columns: 5
     aspectRatio: auto
@@ -101,22 +104,14 @@ sections:
         borderWidth: 1
         borderStyle: solid
   - type: FeaturedItemsSection
-    subtitle: 'You can find me here:'
+    subtitle: 'Find me:'
     colors: colors-f
     items:
       - type: FeaturedItem
         actions:
           - type: Link
             label: GitHub
-            url: 'https://github.com/'
-        styles:
-          self:
-            textAlign: left
-      - type: FeaturedItem
-        actions:
-          - type: Link
-            label: Twitter
-            url: 'https://twitter.com/'
+            url: 'https://github.com/meenal1799-design'
         styles:
           self:
             textAlign: left
@@ -124,31 +119,15 @@ sections:
         actions:
           - type: Link
             label: LinkedIn
-            url: 'https://www.linkedin.com/'
+            url: 'https://www.linkedin.com/in/singh-meenal'
         styles:
           self:
             textAlign: left
       - type: FeaturedItem
         actions:
           - type: Link
-            label: CodePen
-            url: 'https://codepen.io/'
-        styles:
-          self:
-            textAlign: left
-      - type: FeaturedItem
-        actions:
-          - type: Link
-            label: Discord
-            url: 'https://discord.com/'
-        styles:
-          self:
-            textAlign: left
-      - type: FeaturedItem
-        actions:
-          - type: Link
-            label: Instagram
-            url: 'https://www.instagram.com/'
+            label: Email
+            url: 'mailto:meenal.1799@gmail.com'
         styles:
           self:
             textAlign: left
@@ -180,21 +159,21 @@ sections:
     subtitle: 'Skills:'
     items:
       - type: Label
-        label: 'WEB 1, 2, 3'
+        label: TypeScript
       - type: Label
         label: React
       - type: Label
-        label: Microsoft Office
-      - type: Label
         label: Next.js
       - type: Label
-        label: Netlify
+        label: Design Systems
       - type: Label
-        label: Pancakes
+        label: Accessibility
       - type: Label
-        label: C++
+        label: CSS
       - type: Label
-        label: Swift
+        label: Motion
+      - type: Label
+        label: Figma
   - type: DividerSection
     styles:
       self:
@@ -211,7 +190,7 @@ sections:
     subtitle: 'Contact:'
     colors: colors-f
     text: |
-      [thisismyemail.@myemail.me](mailto:thisismyemail.@myemail.me)
+      [meenal.1799@gmail.com](mailto:meenal.1799@gmail.com)
   - type: DividerSection
     styles:
       self:
@@ -227,44 +206,22 @@ sections:
     colors: colors-f
     items:
       - type: FeaturedItem
-        subtitle: 'Experience:'
+        subtitle: 'Capabilities:'
         text: |-
-          **Current**
-
-          * freelance @freelance.me
-
-          **2018-2021**
-
-          * fullstack at this startup
-
-          **2015**
-
-          * senior front-end at this place
-
-          **2013**
-
-          * intern developer at a big company
-
-          **2011**
-
-          * flipping burgers
+          * Product & UX design
+          * Frontend engineering (React/Next.js)
+          * Design systems and component libraries
+          * Prototyping and motion
         styles:
           self:
             textAlign: left
       - type: FeaturedItem
-        subtitle: 'Education:'
+        subtitle: 'Engagements:'
         text: |-
-          **2015-2018**
-
-          * ba computer sciense at a semi fancy school
-
-          **2014**
-
-          * react certificate somewhere
-
-          **2011**
-
-          * my highschool
+          * Brand and portfolio sites
+          * Product landing pages
+          * Web app UX refreshes
+          * Accessibility and performance audits
         styles:
           self:
             textAlign: left
@@ -294,24 +251,17 @@ sections:
         borderStyle: solid
   - type: ContactSection
     backgroundSize: full
-    title: "Let’s talk... \U0001F4AC"
+    title: Let's talk
     colors: colors-f
     form:
       type: FormBlock
       elementId: sign-up-form
       fields:
-        - name: firstName
-          label: First Name
+        - name: name
+          label: Name
           hideLabel: true
-          placeholder: First Name
+          placeholder: Name
           isRequired: true
-          width: 1/2
-          type: TextFormControl
-        - name: lastName
-          label: Last Name
-          hideLabel: true
-          placeholder: Last Name
-          isRequired: false
           width: 1/2
           type: TextFormControl
         - name: email
@@ -319,7 +269,7 @@ sections:
           hideLabel: true
           placeholder: Email
           isRequired: true
-          width: full
+          width: 1/2
           type: EmailFormControl
         - name: message
           label: Message
@@ -328,12 +278,7 @@ sections:
           isRequired: true
           width: full
           type: TextareaFormControl
-        - name: updatesConsent
-          label: Sign me up to recieve my words
-          isRequired: false
-          width: full
-          type: CheckboxFormControl
-      submitLabel: "Submit \U0001F680"
+      submitLabel: Send message
       styles:
         self:
           textAlign: center

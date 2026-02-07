@@ -13,13 +13,10 @@ sections:
   - elementId: ''
     colors: colors-f
     backgroundSize: full
-    title: >-
-      I’m a developer, digital artist, consultant and a bunch of other
-      impressive titles and buzz words.
+    title: 'Meenal Singh - Developer & Digital Artist'
     subtitle: >-
-      This is my info—I’m sharing it all this with ya’ll to impress you with all
-      the hard work I’ve done in the past few years. Once you’re impressed, you
-      can continue to scroll down to see more details and credentials about me.
+      I build thoughtful, high-performing web experiences that pair clean
+      engineering with visual storytelling.
     styles:
       self:
         height: auto
@@ -34,10 +31,19 @@ sections:
           - pb-48
           - pl-4
           - pr-4
-        flexDirection: row-reverse
+        flexDirection: row
         textAlign: left
     type: HeroSection
-    actions: []
+    actions:
+      - type: Button
+        label: View projects
+        url: /projects
+        showIcon: true
+        icon: arrow-right
+      - type: Button
+        label: Get in touch
+        url: '#contact'
+        style: secondary
   - colors: colors-f
     type: FeaturedProjectsSection
     elementId: ''
@@ -49,7 +55,7 @@ sections:
     showDescription: true
     showFeaturedImage: true
     showReadMoreLink: true
-    variant: variant-b
+    variant: variant-c
     projects:
       - content/pages/projects/project-two.md
       - content/pages/projects/project-three.md
@@ -64,12 +70,14 @@ sections:
           - pl-4
           - pr-4
         textAlign: left
-    subtitle: Projects
+    title: Selected work
+    subtitle: A small set of projects focused on interaction, clarity, and craft.
   - type: FeaturedPostsSection
     elementId: ''
     colors: colors-f
     variant: variant-d
-    subtitle: Featured Posts
+    title: Writing
+    subtitle: Notes on design systems, frontend craft, and experiments.
     showFeaturedImage: false
     actions:
       - type: Link
@@ -93,25 +101,22 @@ sections:
           - pr-4
         textAlign: left
   - type: ContactSection
+    elementId: contact
     colors: colors-f
     backgroundSize: full
-    title: "Got an interesting project? Tell me more...\U0001F4AC"
+    title: Have a project in mind?
+    text: >-
+      Tell me a little about your timeline and goals. I'll reply with next steps
+      and availability.
     form:
       type: FormBlock
       elementId: sign-up-form
       fields:
-        - name: firstName
-          label: First Name
+        - name: name
+          label: Name
           hideLabel: true
-          placeholder: First Name
+          placeholder: Name
           isRequired: true
-          width: 1/2
-          type: TextFormControl
-        - name: lastName
-          label: Last Name
-          hideLabel: true
-          placeholder: Last Name
-          isRequired: false
           width: 1/2
           type: TextFormControl
         - name: email
@@ -121,19 +126,14 @@ sections:
           isRequired: true
           width: 1/2
           type: EmailFormControl
-        - name: address
-          label: Address
+        - name: project
+          label: Project
           hideLabel: true
-          placeholder: Address
+          placeholder: What are you working on?
           isRequired: true
-          width: 1/2
-          type: TextFormControl
-        - name: updatesConsent
-          label: Sign me up to recieve updates
-          isRequired: false
           width: full
-          type: CheckboxFormControl
-      submitLabel: "Submit \U0001F680"
+          type: TextareaFormControl
+      submitLabel: Send message
       styles:
         self:
           textAlign: center
