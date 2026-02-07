@@ -13,8 +13,8 @@ sections:
   - elementId: ''
     colors: colors-f
     backgroundSize: full
+    title: About
     text: >+
-      # About
       I'm a Product Manager specializing in AI-powered digital products and
       enterprise solutions. I lead cross-functional teams, shape product
       roadmaps, and deliver measurable growth across B2B and B2C platforms.
