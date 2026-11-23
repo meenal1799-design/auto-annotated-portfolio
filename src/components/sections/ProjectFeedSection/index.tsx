@@ -126,11 +126,11 @@ function ProjectList(props) {
             })}
         >
             {projects.map((project, index) => (
-                <Link key={index} href={project} className="block pb-10 border-b border-current group md:pb-12 md:px-4">
-                    <div className="flex flex-col gap-8 md:flex-row md:items-center">
+                <Link key={index} href={project} className="block pb-6 border-b border-current group md:pb-8 md:px-4">
+                    <div className="flex flex-row items-start gap-4 sm:gap-6">
                         {showFeaturedImage && project.featuredImage && (
-                            <div className="md:shrink-0 md:self-stretch md:w-48">
-                                <div className="w-full overflow-hidden aspect-3/2 md:min-h-full">
+                            <div className="w-28 shrink-0 sm:w-36 md:w-44">
+                                <div className="w-full overflow-hidden aspect-3/2">
                                     <ImageBlock
                                         {...project.featuredImage}
                                         className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105"
@@ -144,14 +144,14 @@ function ProjectList(props) {
                                     <ProjectDate date={project.date} />
                                 </div>
                             )}
-                            <TitleTag className="text-3xl sm:text-4xl">{project.title}</TitleTag>
+                            <TitleTag className="text-xl sm:text-2xl">{project.title}</TitleTag>
                             {showDescription && project.description && (
-                                <p className="mt-5 text-lg">{project.description}</p>
+                                <p className="mt-2 text-sm sm:text-base">{project.description}</p>
                             )}
                         </div>
                         {showReadMoreLink && (
-                            <div className="md:mx-4">
-                                <span className="inline-flex text-xl transition rounded-full p-4 border-2 border-current md:text-3xl group-hover:bottom-shadow-6 group-hover:-translate-y-1.5">
+                            <div className="ml-auto hidden sm:block sm:pl-2">
+                                <span className="inline-flex text-xl transition rounded-full p-3 border-2 border-current group-hover:bottom-shadow-6 group-hover:-translate-y-1.5">
                                     <ArrowUpRightIcon className="fill-current w-icon h-icon" />
                                 </span>
                             </div>
