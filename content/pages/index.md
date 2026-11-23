@@ -78,6 +78,44 @@ sections:
     title: Selected work
     subtitle: Product launches, enterprise connectors, and growth initiatives.
   - type: FeaturedItemsSection
+    elementId: playlists-2026
+    colors: colors-f
+    title: My YouTube playlists from 2026
+    subtitle: Tech, AI, science, and art that I am exploring this year.
+    carousel: true
+    items:
+      - type: FeaturedItem
+        title: Meenal's Tech & AI List 2026
+        subtitle: Technology, AI, and emerging ideas.
+        featuredImage:
+          type: ImageBlock
+          url: https://i.ytimg.com/vi/muUYgYC4iZE/hqdefault.jpg
+          altText: Thumbnail for Meenal's Tech & AI List 2026 YouTube playlist
+        actions:
+          - type: Link
+            label: Watch playlist
+            url: https://www.youtube.com/playlist?list=PLMkK9blGP8IM
+      - type: FeaturedItem
+        title: Meenal's Science & Art Learnings 2026 List
+        subtitle: Science, art, and curious discoveries.
+        featuredImage:
+          type: ImageBlock
+          url: https://i.ytimg.com/vi/8Cb3G53xsZE/hqdefault.jpg
+          altText: Thumbnail for Meenal's Science and Art Learnings 2026 YouTube playlist
+        actions:
+          - type: Link
+            label: Watch playlist
+            url: https://www.youtube.com/playlist?list=PLOwxjQCVOLf8
+    styles:
+      self:
+        height: auto
+        width: wide
+        padding:
+          - pt-16
+          - pb-24
+          - pl-4
+          - pr-4
+  - type: FeaturedItemsSection
     elementId: ''
     colors: colors-f
     title: Insights

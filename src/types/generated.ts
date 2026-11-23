@@ -252,6 +252,7 @@ export type FeaturedItemsSection = BaseContentObject & {
     title?: string;
     subtitle?: string;
     items?: FeaturedItem[];
+    carousel?: boolean;
     actions?: (Button | Link)[];
     colors?: 'colors-a' | 'colors-b' | 'colors-c' | 'colors-d' | 'colors-e' | 'colors-f';
     columns?: number;
