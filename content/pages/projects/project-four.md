@@ -10,12 +10,12 @@ description: >-
   business cases toward migration execution across AWS, GCP, and Azure.
 featuredImage:
   type: ImageBlock
-  url: /images/project-concierto.jpg
-  altText: Cloud transformation and AI analytics platform
+  url: /images/project-cloud-migration.png
+  altText: On-premises infrastructure assessed and migrated across three cloud environments
 media:
   type: ImageBlock
-  url: /images/project-concierto.jpg
-  altText: Cloud transformation and AI analytics platform
+  url: /images/project-cloud-migration.png
+  altText: On-premises infrastructure assessed and migrated across three cloud environments
 ---
 
 ## The challenge
