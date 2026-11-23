@@ -106,6 +106,28 @@ sections:
           - type: Link
             label: Watch playlist
             url: https://www.youtube.com/playlist?list=PLOwxjQCVOLf8
+      - type: FeaturedItem
+        title: Meenal's Society & Culture List 2026
+        subtitle: Society, culture, and the ideas shaping the moment.
+        featuredImage:
+          type: ImageBlock
+          url: https://i.ytimg.com/vi/QNevJWXrrEY/hqdefault.jpg
+          altText: Thumbnail for Meenal's Society and Culture List 2026 YouTube playlist
+        actions:
+          - type: Link
+            label: Watch playlist
+            url: https://www.youtube.com/playlist?list=PLe2SDDS8avGQ
+      - type: FeaturedItem
+        title: Meenal's Business & Money List 2026
+        subtitle: Business, money, brands, and the economy.
+        featuredImage:
+          type: ImageBlock
+          url: https://i.ytimg.com/vi/8MzPLXbNOeQ/hqdefault.jpg
+          altText: Thumbnail for Meenal's Business and Money List 2026 YouTube playlist
+        actions:
+          - type: Link
+            label: Watch playlist
+            url: https://www.youtube.com/playlist?list=PLMcdWmXOSpfg
     styles:
       self:
         height: auto
