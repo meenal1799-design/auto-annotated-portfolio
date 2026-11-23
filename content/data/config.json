@@ -20,7 +20,7 @@
             },
             {
                 "type": "Link",
-                "label": "Notes",
+                "label": "Musings",
                 "url": "https://meenalsingh.substack.com/"
             }
         ],
@@ -56,7 +56,7 @@
             },
             {
                 "type": "Link",
-                "label": "Notes",
+                "label": "Musings",
                 "url": "https://meenalsingh.substack.com/",
                 "altText": ""
             },
