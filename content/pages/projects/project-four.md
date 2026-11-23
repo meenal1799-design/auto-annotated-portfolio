@@ -2,6 +2,7 @@
 type: ProjectLayout
 title: Conversational Cloud TCO & Migration Planning
 colors: colors-a
+date: '2026-11-23'
 client: Enterprise cloud transformation platform
 description: >-
   Designed a conversational TCO assessment experience and multi-agent
