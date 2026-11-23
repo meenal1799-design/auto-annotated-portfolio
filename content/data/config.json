@@ -31,13 +31,6 @@
                 "label": "LinkedIn",
                 "url": "https://www.linkedin.com/in/singh-meenal",
                 "icon": "linkedin"
-            },
-            {
-                "type": "Social",
-                "altText": "Substack",
-                "label": "Substack",
-                "url": "https://meenalsingh.substack.com/",
-                "icon": "arrow-up-right"
             }
         ],
         "styles": {
