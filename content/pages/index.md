@@ -61,6 +61,7 @@ sections:
     showReadMoreLink: true
     variant: variant-c
     projects:
+      - content/pages/projects/project-four.md
       - content/pages/projects/project-two.md
       - content/pages/projects/project-three.md
       - content/pages/projects/project-one.md
